@@ -11,4 +11,5 @@ plotly
 catboost
 xgboost
 dill
+lightgbm
 #-e .
