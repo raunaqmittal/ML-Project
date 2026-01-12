@@ -54,5 +54,5 @@ if __name__=="__main__":
     train_array,test_array,processor_path=data_transformation.initiate_data_transformation(train_data,test_data)
 
     model_trainer=ModelTrainer()
-    print(model_trainer.initiate_model_trainer(train_array,test_array,processor_path))
+    print(model_trainer.initiate_model_trainer(train_array,test_array))
 
